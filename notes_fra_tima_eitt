@@ -1,0 +1,59 @@
+## Chapter 1
+______________
+osi -> open system interconnection
+  Layer 7 : Application = Þegar Þú byrjar forritið(eitthvað eins og email) þá byrjar það að fara í gegnum öll layers frá 7 og niður í 1 og svo til baka
+  Layer 6 : Presentation = dulkóða og afdulkóða
+  Layer 5 : Session = opna samskipti á milli tækja
+  Layer 4 : Transport = þitt port að tala við annað port(eins og eitthver vefsíða)
+  Layer 3 : Network = ráderar
+  Layer 2 : Data Link = milli stiki ; mac og ip og meria
+  Layer 1 : Physical = ljósleiðari og snúrur
+  
+
+TCP/IP -> 
+  Application = Layer 7 og 6 og 5
+  Transport =  Layer 4
+  Network = Layer 3
+  Link = Layer 2 og 1
+
+Link Layer(high level overview)
+  ip setur eitthvað inn í packets/pakki
+  mac setur eitthvað inn í frame/rami
+
+The Internet layer(high level overview)
+  IP Addresses
+  IP Packets
+    - Destination
+    - Source
+    - Data
+
+The Transport Layer(high level overview)
+    Notar port numer
+    Firewalls like to work in this layer (Firewall eru oft settur in á þessu layer)
+    TCP(Transmission Control Protocol) segments or UDP(User Datagram Protocol) datagrams
+    UDP er snegra heldur en TCP en TCP er örugara heldur en UDP því TCP þarf allt að fá samþigi til að geta hafið samtall
+
+The Application Layer(high level overview)
+  Sessions
+  Presentation
+  Application standards
+     - HTTP(Hypertext Transfer Protocol)
+     - FTP(File Transfer Protocol)
+     - IRC(Internet Relay Chat)
+     - DNS(Domain Name System)
+     - POP3(Post Office Protocol)
+     
+________________
+
+## Chapter 2
+________________
+skoða á microsoft teams
+
+
+________________
+
+## Chapter 5
+________________
+
+Racks are measured in U(units) The more Us, the taler the rack 1U = 44.45 mm
+apípatala 169.258.0.0 þetta er voða vont
