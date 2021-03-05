@@ -8,9 +8,9 @@ frame includes
   - Preamble = er að segja að það fer að byrja
   - Mac Addresses =
   - Type = tegund
-  - Data (including L3 headers, portnumbers and such) =
+  - Data (including L3 headers, portnumbers and such) = setur upplisingar inn í frame-ið (gerir info-ið ready)
   - Pad (if needed) = auka upplisingar ef hann þarf að setja í bakan eða það er notað til að taka ur pakkanum(ip's)
-  - FCS =
+  - FCS(Frame check sequence) = skoðar hvað er í frame-inu
 
 crossover cables =  til að teingja við annað tæki
 
